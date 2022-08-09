@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="fixed bottom-0 left-0 z-20 p-4 w-full bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
+        <footer className="bottom-0 left-0 z-20 p-4 w-full bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
             <div className="md:flex md:justify-between">
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>

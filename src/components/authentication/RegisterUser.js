@@ -51,7 +51,7 @@ const RegisterUser = () => {
                 </div>
                 <button type="submit" className={registerUser.submitButton}>I`m all done</button>
             </form>
-            <img src={registerUser.image} className="ml-80 w-1/4 h-1/5 h-auto rounded-full" alt="" />
+            <img src={registerUser.image} className="ml-80 w-1/4 h-1/4 h-auto rounded-full" alt="" />
         </div>
     )
 }
