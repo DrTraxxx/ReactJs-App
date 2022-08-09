@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
-import CertificatesList from './Certifications/CertificatesList'
-import PatientClendar from "./PacientCalendar/PatientCalendar"
+import CertificatesList from './certifications/CertificatesList'
+import PatientClendar from "./pacient-calendar/PatientCalendar"
 
 const dummyDoc = {
     id: 10,
@@ -12,8 +12,15 @@ const dummyDoc = {
         { _id: 2, name: "GroomingSertification", date: "12/01/2017" },
         { _id: 3, name: "GroomingSertification", date: "12/01/2017" },
         { _id: 4, name: "GroomingSertification", date: "12/01/2017" }
-
+    ],
+    appointments:
+    [
+        {dayOftheWeek:"Monday",date:"9/8/2022",slots:["12:00","13:00","14:00","15:00","16:00"]},
+        {dayOftheWeek:"Thuesday",date:"10/8/2022",slots:["12:00","13:00","14:00","15:00","16:00"]},
+        {dayOftheWeek:"Thursday",date:"12/8/2022",slots:["12:00","13:00","14:00","15:00","16:00"]},
+        {dayOftheWeek:"Friday",date:"13/8/2022",slots:["12:00","13:00","14:00","15:00","16:00"]}
     ]
+
 }
 
 const DetailView = () => {
